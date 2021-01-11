@@ -1,4 +1,4 @@
-package com.axel.MicroService.CloudConfig;
+package com.axel.microservice.cloudconfig;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
@@ -7,7 +7,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(MicroServiceCloudConfigApplication.class);
+		return application.sources(MicroserviceCloudconfigApplication.class);
 	}
 
 }

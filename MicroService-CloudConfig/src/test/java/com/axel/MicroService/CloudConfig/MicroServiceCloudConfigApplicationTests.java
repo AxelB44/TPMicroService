@@ -1,10 +1,10 @@
-package com.axel.MicroService.CloudConfig;
+package com.axel.microservice.cloudconfig;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MicroServiceCloudConfigApplicationTests {
+class MicroserviceCloudconfigApplicationTests {
 
 	@Test
 	void contextLoads() {
